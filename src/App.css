@@ -1,38 +1,31 @@
+body {
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(72,154,200,1) 100%);
+}
+
+
+.display {text-align: left;}
+
+
 .App {
-  text-align: center;
+  margin: auto;
+  width: 35vw;
+  display: block;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(14,14,29,1) 77%, rgba(71,121,164,1) 100%);
+  color: #fff;
+  padding: 45px;
+  font-size: 15px;
+  font-style: italic;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form input {
+  font-size: 18px;
+  margin-bottom: 10px;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+form input[type=submit] {margin-top: 10px;background: #000;border: none;}
